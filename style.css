@@ -31,5 +31,32 @@ body {
  
 }
 
+#girlactor {
+
+width: 600px;
+position: relative;
+top: 20px;
+left: -400px ; 
+transform: scaleX(-1);
+
+}
 
 
+#boyactor {
+
+ width: 600px;  
+ position: relative;
+ top: -323px; 
+ left: 133px;
+ 
+}
+
+@keyframes girl-running {
+
+
+0%.  {transform: translate (0px,0px) scale(0); opacity:1; }
+100% {transform: translate (0px,0px) scale(1); opacity:1; }
+
+
+
+}
