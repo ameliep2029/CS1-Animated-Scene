@@ -36,8 +36,9 @@ body {
 width: 600px;
 position: relative;
 top: 20px;
-left: -400px ; 
+left: -600px ; 
 transform: scaleX(-1);
+animation: girl-running 5s infinite linear;
 
 }
 
@@ -46,17 +47,24 @@ transform: scaleX(-1);
 
  width: 600px;  
  position: relative;
- top: -323px; 
- left: 133px;
+ top: -323px;  
+ left: 600px;
+ animation: boy-running 5s infinite linear ;
  
 }
 
 @keyframes girl-running {
 
 
-0%.  {transform: translate (0px,0px) scale(0); opacity:1; }
-100% {transform: translate (0px,0px) scale(1); opacity:1; }
+0% {transform:   translate(0px,0px) scaleX(-1); }
+50% {transform: translate(400px,0px) scaleX(-1); }
+100% {transform: translate(455px,0px) scaleX(-1); }
+}
 
 
+@keyframes boy-running {
 
+0%   {transform: translate(0px,0px); }
+50%  {transform: translate(-640px,0px); }
+100% {transform: translate(-700px,0px); }
 }
