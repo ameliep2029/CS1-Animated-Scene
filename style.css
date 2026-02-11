@@ -8,35 +8,36 @@ html, body {
 
 
 body {
-  background-image: url("movienight.jpg");
+  background-image: url("movie.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 
-
 #scene-description {
  width: 600px;
  margin: 20px auto;
  text-align: center;
- font-family: "Trebuchet MS";
+ font-family: cursive ;
  font-size: 0.8em;
  color: white;
 }
 
-
 #scene-container {
   position: absolute;
-  top: 200px;
-  left: 200x;
-  width: 400px;
+  top: 160px;
+  left: 1px;
+  width: 315px;
   height: 250px;
   overflow: hidden;
+  
 
   background-image: url("beach1.jpg");
   background-size: cover;
   background-position: center bottom;
+  border: 8px solid rgb(132, 99, 54);  
+  box-shadow: 0 0 40px black;
 }
 
 
@@ -69,39 +70,39 @@ body {
 
 
 #boyactor {
-
- width: 100%px;  
+ width: 100%;  
  position: relative;
- top: -323px;  
+ top: -162px;  
  left: 440px;
  animation: boy-running 10s linear infinite ;
 z-index: 2;
- 
+
 }
+
 
 @keyframes girl-running {
   0%   { transform: translate(0px,0px) scaleX(-1); }
   25%  { transform: translate(340px,0px) scaleX(-1); }
-  40%  { transform: translate(500px,0px) scaleX(-1); }
-  65%  { transform: translate(500px,0px) scaleX(-1); } 
-  100% { transform: translate(500px,0px) scaleX(-1); }
+  40%  { transform: translate(505px,0px) scaleX(-1); }
+  65%  { transform: translate(505px,0px) scaleX(-1); } 
+  100% { transform: translate(530px,0px) scaleX(-1); }
 }
 
 @keyframes boy-running {
 
 0% {transform:  translate(0px,0px);    opacity: 1; }
 25% {transform: translate(-340px,0px); opacity: 1; }
-40% {transform: translate(-500px,0px); opacity: 1; }
-60% {transform: translate(-500px,0px); opacity: 0; }
-100% {transform: translate(-500px,0px); opacity: 0; }
+40% {transform: translate(-505px,0px); opacity: 1; }
+60% {transform: translate(-510px,0px); opacity: 0; }
+100% {transform: translate(-515px,0px); opacity: 0; }
 
     
 }
 
 @keyframes bg-change {
   0%   { opacity: 0; }
-  55%  { opacity: 0; }
-  65%  { opacity: 1; }
+  25%  { opacity: 0; }
+  60%  { opacity: 1; }
   100% { opacity: 1; }
 }
 
