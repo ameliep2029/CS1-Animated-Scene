@@ -27,8 +27,8 @@ body {
 #scene-container {
   position: absolute;
   top: 160px;
-  left: 1px;
-  width: 315px;
+  left: 8px;
+  width: 348px;
   height: 250px;
   overflow: hidden;
   
@@ -72,7 +72,7 @@ body {
 #boyactor {
  width: 100%;  
  position: relative;
- top: -162px;  
+ top: -181px;  
  left: 440px;
  animation: boy-running 10s linear infinite ;
 z-index: 2;
